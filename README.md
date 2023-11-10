@@ -1,13 +1,29 @@
-# WEDGE Decentralized Chat Application
-This is our submission for our 322 project. This is a decentralized chat application based on the work done by Fireship. https://github.com/fireship-io/gun-chat Most of the Svelte components were built from the ground up, and we improved on the messaging components from Fireship. We used Gun.JS, Svelte, Bootstrap, and NodeJS to complete this project.
+<h1 align="center">WEDGE Decentralized Chat Application</h1>
 
-Message are decentrialized and stored in the website data of users browsers. To clear messages, simply clear website data. 
+<p align="center">
+  <img src="wedge_tutorial.gif">
+</p>
+
+## Introduction
+Welcome to WEDGE, a decentralized chat application inspired by Fireship's work [here](https://github.com/fireship-io/gun-chat). We've crafted most of the Svelte components from the ground up, enhancing the messaging features pioneered by Fireship. Our tech stack includes Gun.JS, Svelte, Bootstrap, and NodeJS.
+
+Messages are decentralized and stored in users' browsers' website data. To clear messages, simply clear your website data.
+
+## Technologies
+* Svelte
+* Bootstrap
+* NodeJS
+* HTML/CSS
 
 ## How to Run
+Begin by installing npm
+```
+sudo apt install npm
+```
+Then execute the following commands
 ```
 npm install
 
 npm run dev
 ```
-
-Input 127.0.0.1:8080 to browser!
+Finally input 127.0.0.1:8080 in your browser to view the application!
